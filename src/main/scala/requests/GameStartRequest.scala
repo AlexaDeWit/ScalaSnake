@@ -5,12 +5,8 @@ import java.util.UUID
 import cats.effect._
 
 import io.circe._
-import io.circe.generic.auto._
-import io.circe.syntax._
-
-import org.http4s._
 import org.http4s.circe._
-import org.http4s.dsl.io._
+
 
 
 case class GameStartRequest(Width: Int, height: Int, gameId: UUID) {
