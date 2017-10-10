@@ -3,8 +3,8 @@ package com.github.alexadewit.scalasnake.requests
 import java.util.UUID
 
 import cats.effect._
-
 import io.circe._
+import org.http4s.EntityEncoder
 import org.http4s.circe._
 
 

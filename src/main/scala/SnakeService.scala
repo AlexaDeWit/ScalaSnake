@@ -15,7 +15,6 @@ class SnakeService[F[_]](implicit F: Effect[F]) extends Http4sDsl[F] {
     case req @ POST -> Root / "start" =>
       req.decode[GameStartRequest] { gameStart =>
         Ok(gameStart.asJson)
-
       }
   }
 

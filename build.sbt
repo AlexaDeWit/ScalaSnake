@@ -13,5 +13,6 @@ libraryDependencies ++= Seq(
   "org.http4s"      %% "http4s-dsl"          % Http4sVersion,
   "ch.qos.logback"  %  "logback-classic"     % LogbackVersion,
   "io.circe"        %% "circe-parser"        % circeVersion,
-  "io.circe"        %% "circe-generic"       % circeVersion
+  "io.circe"        %% "circe-generic"       % circeVersion,
+  "org.scalatest"   %% "scalatest"           % "3.0.1"        % "test"
 )
